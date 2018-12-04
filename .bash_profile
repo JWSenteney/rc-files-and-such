@@ -13,12 +13,6 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # ls colors for dark background (subdued)
 # gitignore.io command
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
-###-----------------------------------###
-### STUFF ADDED BY VARIOUS INSTALLERS ###
-###-----------------------------------###
-export PATH="/usr/local/sbin:$PATH"
-
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
-
-# added by Anaconda3 5.2.0 installer
-export PATH="/Users/jsenteney/anaconda3/bin:$PATH"
+###------------------------------------------###
+### STUFF ADDED BY VARIOUS INSTALLERS BELOW  ###
+###------------------------------------------###
